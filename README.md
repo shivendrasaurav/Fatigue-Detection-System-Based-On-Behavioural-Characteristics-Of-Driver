@@ -41,3 +41,6 @@ To run the code, run
 ```
 python blinkDetect.py
 ```
+
+This repository has been forked from, @jaisayush
+Link to his github profile : https://github.com/jaisayush
