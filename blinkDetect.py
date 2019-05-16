@@ -2,11 +2,9 @@
 TODO:
     - Improve face landmark detection. Probably caused due to lighting changes. Eliminate the effect of lightinh with minimal computation.
       Solved by histogram equalization
-
     - Stabilize face landmark points
-
     - Gaze direction
-
+    - Bug Fixes
 """
 
 import dlib
@@ -275,4 +273,3 @@ if __name__ == "__main__":
     capture.release()
     vid_writer.release()
     cv2.destroyAllWindows()
-
